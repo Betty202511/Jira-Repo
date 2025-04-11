@@ -1,4 +1,4 @@
-- name: Jira Integration
+ name: Jira Integration
   if: ${{ always() }}
   uses: rohit-gohri/jira-ci-cd-integration@v0
   with:
