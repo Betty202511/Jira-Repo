@@ -36,7 +36,7 @@ jobs:
         uses: build
         with:
           state: ${{ job.status }}
-          jira_instance: JIRA_INSTANCE # Subdomain for Jira Cloud
+          jira_instance: companyname  # Subdomain for Jira Cloud
           client_id: ${{ secrets.JIRA_CLIENT_ID }}
           client_secret: ${{ secrets.JIRA_CLIENT_SECRET }}
 
